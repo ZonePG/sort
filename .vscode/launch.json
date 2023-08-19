@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: sort.py",
+            "type": "python",
+            "request": "launch",
+            "program": "sort.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "--display",
+                // "--seq_path=/Users/zoupeng/datasets/MOT15",
+                "--mot_benchmark=/Users/zoupeng/datasets/MOT15",
+            ]
+        }
+    ]
+}
